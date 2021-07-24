@@ -1,0 +1,151 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage[bookmarks]{hyperref}
+
+\begin{document}
+
+\pagestyle{empty}
+\begin{center}
+  \begin{figure}
+    \centering
+    \includegraphics[width=.33\textwidth]{nsu.png}
+  \end{figure}
+  {\sc
+  {\large North South University} \\
+  Department of Electrical and Computer Engineering
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+  {\Large Project Proposal}
+
+  \bigskip
+  \bigskip
+
+  \hline
+  \medskip
+  {\Huge “Food Ordering Website”} \\[\bigskipamount]
+ 
+  \medskip
+  \hline
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+  Database Systems Lab \\
+  CSE311L \\
+  Section: 5 \\
+  Semester: Summer 2021
+  }
+
+  \vspace{5\bigskipamount}
+
+  \begin{tabular}{ll|c}
+    \textit{Student Names} & \textit{IDs} & \multirow{5}{*}{\makecell[r]{
+                                              \textit{Course Faculty} \\
+                                              Nadeem Ahmed \\[\smallskipamount]
+                                              \textit{Lab Instructor} \\
+                                              Nazmul Alam Dipto \\
+                                            }} \\
+    Jannatul Ferdous Sithi & 2012365642 \\
+    Nahian Maliha & 1911762642 \\
+    Ahmed Ahnaf Preenan & 1931394642 \\
+  \end{tabular}
+
+  \bigskip
+  \bigskip
+  \bigskip
+  \textsc{project repository}: \texttt{https://github.com/NadmanKhan/scholarmesh}
+
+\end{center}
+\clearpage
+\pagebreak
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section*{Introduction} % (fold)
+\label{sec:introduction}
+Being a land of foodaholics, the food delivery market in Bangladesh has flourished immensely over the years. Additionally, since the commencement of the pandemic, there has been a rapid boost in the market size and order volume. Lockdown has forced people to stay indoors and fulfill their cravings, on the contrary, layoffs all over the country has led to a huge number of food entrepreneurs. Unlike other apps, this web application will be a platform where these entrepreneurs with ineffective strategies and zero marketing experiences get to showcase their promising culinary skills. Also, to make sure that their story is being heard, they are not only presented with their wholesome offerings, but also the contexts and backstories behind both the art and the artist.
+% section introduction (end)
+
+
+\section*{Objectives} % (fold)
+\label{sec:objectives}
+\begin{itemize}
+  \item To easily avail safe ready made food from home.
+  \item Get to know more about the food and the maker.
+  \item Provide a platform to people who are passionate about cooking
+  \item Helping people turn their passion into money
+  \item Create employment by hiring delivery men.
+  
+\end{itemize}
+% section objectives (end)
+
+\section*{Target Customers} % (fold)
+\label{sec:target_customers}
+\begin{itemize}
+  \item \emph{Consumers}:  People who will purchase from our website in search of safe and hygienic food.
+  \item \emph{Food Entrepreneurs}: food makers with unlimited passion for cooking who seek not only monetary gain but also recognition for their field of interest
+
+\end{itemize}
+% section target_customers (end)
+
+\section*{Value Proposition} % (fold)
+\label{sec:value_proposition}
+Our two-sided platform will enable buyers to make informed and confident purchase decisions by providing relevant information and allowing our suppliers to have their stories heard, build recognition, and, of course, grow their businesses. The presented contextual information will encourage interactions to happen, thus increasing order volume.
+% section value_proposition (end)
+
+\section*{Web Application Features and Description} % (fold)
+\label{sec:web_application_features_and_description}
+The web page will open with the customer view at first. It will be general view and anyone accessing the domain will be able to view it. This view will show the categories of food which will lead to the food items and the associated seller upon availability. Consumers don’t have to create accounts to purchase. The consumers can login as visitors who can:
+\begin{itemize}
+\item See items and seller information from Consumer’s View
+\item Search and explore items
+\item Read special contextual information for each item and sellers
+\item Order item/s
+\item Access history of their past orders
+\item Notifications of order statuses
+\item Give feed backs
+\end{itemize}
+The sellers can create accounts and log in to access them. Once sellers create their profiles, they can:
+\begin{itemize}
+\item Add information about themselves on their profile
+\item Organize their profile and items
+\item Add, edit and delete items
+\item See the feed backs and comments. 
+\end{itemize}
+The admins will also have their accounts in the web application. They can log in and:
+\begin{itemize}
+\item  Monitor the entire website
+\item Update and delete the sellers or the information from the database
+\item Manage the payment system
+\end{itemize}
+% section web_application_features_and_description(end)
+
+
+
+\section*{Tools and Resources} % (fold)
+\label{sec:tools_and_resources}
+\begin{itemize}
+  \item HTML,
+  \item CSS, 
+  \item MySQL,
+  \item PHP,
+  \item Web server.
+
+\end{itemize}
+% section tools_and_resources (end)
+
+\section*{Challenge} % (fold)
+\label{sec:challenge}
+One of the biggest challenges is the maintenance cost.Using a good server for a manageable web application will need a good amount of money. Also, there will be a huge set of data like image, seller information and their account details.Therefore, there may be a chance of higher cost.Second challenge will be the accuracy of data. While paying the bill,it must be checked whether the data entered are correct or not. Lastly, using MySQL for database management can be vulnerable to SQL injection attack, but precaution can be taken to prevent it while designing database .
+% section challenge(end)
+
+
+\end{document}
